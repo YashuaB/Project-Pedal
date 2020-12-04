@@ -32,8 +32,11 @@ body{
     height: 100%;
 }
 /*Primary Containers  */
-.header-container, .main-container,  .gallery-container, .price-container, .contact-container  {
-height: 300px;
+.header-container{
+    height: 70px;
+}
+.main-container,  .gallery-container, .price-container, .contact-container  {
+height: 600px;
 border: 1px black solid;
 }
 /* Secondary Containers */
