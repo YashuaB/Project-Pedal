@@ -1,0 +1,46 @@
+/* Reset */
+*{
+    margin: 0;
+    padding: 0;
+   
+}
+/*Visual Aid For Devoloping */
+*{
+    /* border: 1px black solid; */
+    
+}
+.body div:nth-child(even)  {
+ background-color: rgb(174, 174, 175);
+}
+.body div:nth-child(odd){
+background-color: rgb(61, 61, 61);
+ }
+
+section:nth-child(even) {
+ background-color: rgb(132, 132, 161);
+}
+section:nth-child(odd) {
+    background-color: rgb(204, 157, 223);
+   }
+/*Page Sizing  */
+body{
+    width: 100vw;
+    height: 100vh;
+}
+.container{
+    width: 100%;
+    height: 100%;
+}
+/*Primary Containers  */
+.header-container, .main-container,  .gallery-container, .price-container, .contact-container  {
+height: 300px;
+border: 1px black solid;
+}
+/* Secondary Containers */
+.logo-container, .nav-container, .intro-container, .slider-container, .price-info-container, .contact-info-container, .contact-form-container{
+    border: 1px black solid;
+}
+/* Tetrarary Containers */
+.bridal-item-container{
+    border: 1px black solid;
+}
