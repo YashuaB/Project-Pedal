@@ -56,6 +56,9 @@ border: 1px black solid;
     width: 80%;
     position: relative;
     left: 9%;
+    /* test style for new layout */
+    width: 86.2%;
+    left: 12.9%;
 }
 
 .intro-container{
@@ -63,6 +66,7 @@ border: 1px black solid;
     position: relative;
     bottom: 80%;
     left: 26%;
+    /* test style for new layout */ left: 33%;
     text-align: center;
     color: #f6e9a3;
     /* tempory style for designing */
