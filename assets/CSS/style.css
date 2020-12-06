@@ -23,8 +23,10 @@ body{
 .header-container{
     height: 40px;
 }
-
-.main-container,  .gallery-container, .price-container, .contact-container  {
+.contact-container {
+    height: 300px;
+} 
+.main-container,  .gallery-container, .price-container{
 height: 600px;
 border: 1px black solid;
 }
@@ -63,7 +65,7 @@ border: 1px black solid;
 .nav-container li a {
     display: block;
     width: 60px;
-    color: black;
+    color: #f6e9a3;;
     text-decoration: none;
     /* test styles */
     font-size: 37px;
@@ -156,7 +158,17 @@ border: 1px black solid;
     font-size: 60px;
     text-align: center;
 }
-.price-list-container{
+.price-info-container{
     height: 400px;
     background: white;
+}
+/* Contact Container Styles */
+.contact-header{
+    font-size: 42px;
+}
+.contact-info-container{
+    width: 50%;
+    height: 240px;
+    position: relative;
+    left: 30%;
 }
