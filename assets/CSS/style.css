@@ -26,9 +26,18 @@ body{
 .contact-container {
     height: 300px;
 } 
+.main-container{
+/* test style for new layout */
+    /* position: relative;
+    bottom: 39px; */
+
+     /* temporary style */
+     border:none;
+}
+
 .main-container,  .gallery-container, .price-container{
 height: 600px;
-border: 1px black solid;
+
 }
 /* Secondary Containers */
 .logo-container, .nav-container, .intro-container, .slider-container, .price-info-container, .contact-info-container, .contact-form-container{
@@ -42,15 +51,21 @@ border: 1px black solid;
 .bridal-item-container{
     border: 1px black solid;
 }
+/* Header Container Styles */
+.header-info{
+    position: relative;
+    left: 697px;
+    bottom: 31px;
+}
 /* Nav Container Styles */
 .nav-container{
-    background-color: #ffdae0d4;
+    background-color:#ffdae0;
     height: 1800%;
     width: 13%;
     position: fixed;
     top: 0px;
     /* temporary style */
-    z-index: 1000;
+   border: none;
 }
 
 .nav-container ul{
@@ -65,7 +80,7 @@ border: 1px black solid;
 .nav-container li a {
     display: block;
     width: 60px;
-    color: #f6e9a3;;
+    color:#a7656b;
     text-decoration: none;
     /* test styles */
     font-size: 37px;
@@ -82,6 +97,7 @@ border: 1px black solid;
     /* test style for new layout */
     width: 86.2%;
     left: 12.9%;
+    
 }
 
 .intro-container{
@@ -89,11 +105,29 @@ border: 1px black solid;
     position: relative;
     bottom: 80%;
     left: 26%;
-    /* test style for new layout */ left: 33%;
     text-align: center;
-    color: #f6e9a3;
+    /* test style for new layout */ left: 33%;
+    color: #ffdae0;
+    background-color: #0000002e;
+    /* alt test style for new layout */
+    width: 89%;
+    height: 100%;
+    bottom: 101%;
+    left: 13%;
+    color: #ffdae0;
+    background-color: #0000002e;
     /* tempory style for designing */
-    background-color: transparent;
+    border: none;
+}
+.overlay-container{
+    /* alt test style for new layout */
+    /* width: 89%;
+    height: 100%;
+    bottom: 101%;
+    left: 13%;
+    background-color: #0000002e;
+    border: none; */
+
 }
 .company-name{
     font-size: 486%;
@@ -105,16 +139,23 @@ border: 1px black solid;
     font-size: 180%;
 }
 .call-action{
+    background: #ffdae0d9;
     width: 40%;
+    width: 20%;  /* alt test style for new layout */
     font-size: 216%;
     margin-top: 5%;
+    color: #e84862;
+    border: none;
 }
 /* Gallery Container Styles */
 .gallery-intro{
     font-size: 60px;
     text-align: center;
     margin-top: 50px;
+    position: relative;
+    left: 110px;
 }
+
 .slider-container{
     width: 80%;
     height: 80%;
@@ -165,10 +206,28 @@ border: 1px black solid;
 /* Contact Container Styles */
 .contact-header{
     font-size: 42px;
+    position: relative;
+    left: 68px;
+    text-align: center;
+
 }
 .contact-info-container{
     width: 50%;
     height: 240px;
     position: relative;
     left: 30%;
+    font-size: 23px;
+    line-height: 60px;
+}
+.contact-form-container{
+    width: 50%;
+    position: relative;
+    left: 382px;
+    bottom: 178px;
+    padding: 12px;
+  
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
 }
