@@ -50,6 +50,19 @@ border: 1px black solid;
     /* temporary style */
     z-index: 1000;
 }
+
+.nav-container ul{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.nav-container li a {
+    display: block;
+    width: 60px;
+    color: black;
+    text-decoration: none;
+  }
 /* Main Container & Sub Container Class Styles */
 .background-img{
     height: 100%;
@@ -86,12 +99,39 @@ border: 1px black solid;
     font-size: 216%;
     margin-top: 5%;
 }
-/* Gallery Styles */
+/* Gallery Container Styles */
+.gallery-intro{
+    font-size: 60px;
+    text-align: center;
+    margin-top: 50px;
+}
 .slider-container{
     width: 80%;
     height: 80%;
+    /* test layout style */
+    position: relative;
+    left: 17%;
 }
 .bridal-item-container {
+    display: inline-block;
     width: 29%;
     height: 70%;
+/* test layout style */
+    position: relative;
+    left: 6%;
+    top: 14%;
+}
+.boquet-img{
+    width: 356px;
+    height: 270px;
+}
+.slider-bttn-l{
+    position: absolute;
+    top: 47%;
+    left: 2%;
+}
+.slider-bttn-r{
+    position: absolute;
+    top: 47%;
+    right: 2%;
 }
