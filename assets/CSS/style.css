@@ -42,7 +42,7 @@ border: 1px black solid;
 }
 /* Nav Container Styles */
 .nav-container{
-    background-color: #ffdae0;
+    background-color: #ffdae0d4;
     height: 1800%;
     width: 13%;
     position: fixed;
@@ -56,12 +56,20 @@ border: 1px black solid;
   margin: 0;
   padding: 0;
 }
+ ul :first-child{
+    margin-top: 20px;
+}
 
 .nav-container li a {
     display: block;
     width: 60px;
     color: black;
     text-decoration: none;
+    /* test styles */
+    font-size: 37px;
+    margin-bottom: 21p;
+    position: relative;
+    top: 110px;
   }
 /* Main Container & Sub Container Class Styles */
 .background-img{
@@ -134,4 +142,21 @@ border: 1px black solid;
     position: absolute;
     top: 47%;
     right: 2%;
+}
+/* Price Container Styles */
+.flower-info{
+    width: 40%;
+    position: relative;
+    left: 35%;
+}
+.price-container{
+    background-color: pink;
+}
+.price-list-header{
+    font-size: 60px;
+    text-align: center;
+}
+.price-list-container{
+    height: 400px;
+    background: white;
 }
