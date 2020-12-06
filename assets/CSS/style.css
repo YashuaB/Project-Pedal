@@ -9,19 +9,7 @@
     /* border: 1px black solid; */
     
 }
-.body div:nth-child(even)  {
- background-color: rgb(174, 174, 175);
-}
-.body div:nth-child(odd){
-background-color: rgb(61, 61, 61);
- }
 
-section:nth-child(even) {
- background-color: rgb(132, 132, 161);
-}
-section:nth-child(odd) {
-    background-color: rgb(204, 157, 223);
-   }
 /*Page Sizing  */
 body{
     width: 100vw;
@@ -52,6 +40,16 @@ border: 1px black solid;
 .bridal-item-container{
     border: 1px black solid;
 }
+/* Nav Container Styles */
+.nav-container{
+    background-color: #ffdae0;
+    height: 1800%;
+    width: 13%;
+    position: fixed;
+    top: 0px;
+    /* temporary style */
+    z-index: 1000;
+}
 /* Main Container & Sub Container Class Styles */
 .background-img{
     height: 100%;
@@ -66,8 +64,23 @@ border: 1px black solid;
     bottom: 80%;
     left: 26%;
     text-align: center;
+    color: #f6e9a3;
     /* tempory style for designing */
     background-color: transparent;
+}
+.company-name{
+    font-size: 486%;
+}
+.intro{
+    font-size: 200%;
+}
+.intro-container p {
+    font-size: 180%;
+}
+.call-action{
+    width: 40%;
+    font-size: 216%;
+    margin-top: 5%;
 }
 /* Gallery Styles */
 .slider-container{
