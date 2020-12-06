@@ -33,8 +33,9 @@ body{
 }
 /*Primary Containers  */
 .header-container{
-    height: 70px;
+    height: 40px;
 }
+
 .main-container,  .gallery-container, .price-container, .contact-container  {
 height: 600px;
 border: 1px black solid;
@@ -43,7 +44,37 @@ border: 1px black solid;
 .logo-container, .nav-container, .intro-container, .slider-container, .price-info-container, .contact-info-container, .contact-form-container{
     border: 1px black solid;
 }
+
+.logo-container{
+    width: 8%;
+}
 /* Tetrarary Containers */
 .bridal-item-container{
     border: 1px black solid;
+}
+/* Main Container & Sub Container Class Styles */
+.background-img{
+    height: 100%;
+    width: 80%;
+    position: relative;
+    left: 9%;
+}
+
+.intro-container{
+    width: 42%;
+    position: relative;
+    bottom: 80%;
+    left: 26%;
+    text-align: center;
+    /* tempory style for designing */
+    background-color: transparent;
+}
+/* Gallery Styles */
+.slider-container{
+    width: 80%;
+    height: 80%;
+}
+.bridal-item-container {
+    width: 29%;
+    height: 70%;
 }
