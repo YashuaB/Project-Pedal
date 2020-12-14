@@ -171,10 +171,19 @@ height: 600px;
     position: relative;
     left: 6%;
     top: 14%;
+/* Temp client style */
+    width: 47%;
+    height: 82%;
+    position: relative;
+    left: 27%;
+    top: 8%;
 }
 .boquet-img{
     width: 356px;
     height: 270px;
+/* Temp client style */
+    width: 578px;
+    height: 337px;
 }
 .slider-bttn-l{
     position: absolute;
